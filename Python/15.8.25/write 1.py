@@ -1,0 +1,6 @@
+p=open("E:/xiics1st2024-25/College 25-26/Python/15.8.25/Arisha.txt","w")
+p.write("Ayushi chiro single hoye morbe!!!!")
+p.close()
+p=open("E:/xiics1st2024-25/College 25-26/Python/15.8.25/Arisha.txt","r")
+print(p.read())
+p.close()

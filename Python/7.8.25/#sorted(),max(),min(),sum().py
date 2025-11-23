@@ -1,0 +1,8 @@
+#sorted(),max(),min(),sum()
+t1=('juthika','payel','tanushree','ayush','pritha')
+print(sorted(t1))
+print(tuple(sorted(t1)))
+t2=(10,20,50,30,40,60)
+print(max(t2))
+print(min(t2))
+print(sum(t2))

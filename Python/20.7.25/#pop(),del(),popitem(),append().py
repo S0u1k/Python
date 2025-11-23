@@ -1,0 +1,20 @@
+#pop(),del(),popitem(),append()
+x={}
+n=int(input("Enter the Range = "))
+for i in range(1,n+1,1):
+    p=int(input("Enter the Key = "))
+    x[p]=input("Enter the Name = ")
+print(x)
+x.popitem()
+print(x)
+i=int(input("Enter the Key = "))
+x.pop(i)
+print(x)
+del(x[2])
+print(x)
+y={1:["rupa","mita"],2:["ankita m","ayushi"],3:["ankita m","pratima"]}
+print(y)
+y[3].append("souvik")
+y[2].append("Debojit")
+#y[4].append("Rupanjan")
+print(y)

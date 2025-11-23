@@ -1,0 +1,18 @@
+# Krishnamurthy No
+n = int(input("Enter the No-"))
+f = 1
+s = 0
+x = n
+
+while n > 0:
+    rem = n % 10
+    for i in range(1, rem + 1, 1):
+        f = f * i
+    s = s + f
+    f = 1
+    n = n // 10
+
+if x == s:
+    print("Krishnamurthi No")
+else:
+    print("Not")
